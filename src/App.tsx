@@ -7,7 +7,7 @@ import RootLayout from "./root/RootLayout";
 
 const App = () => {
   return (
-    <main className="flex h-screen">
+    <main className="flex h-full">
       <Routes>
         {/* Public routes */}
         <Route element={<AuthLayout />}>
