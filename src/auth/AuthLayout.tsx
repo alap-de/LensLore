@@ -1,4 +1,3 @@
-import React from "react";
 import { Navigate, Outlet } from "react-router-dom";
 
 const AuthLayout = () => {
@@ -16,7 +15,7 @@ const AuthLayout = () => {
           <img
             src="/assets/images/side-img.svg"
             alt="side logo"
-            className="hidden xl:block h-screen w1/2 object-cover bg-no-repeat"
+            className="hidden xl:block h-auto w-4/12 object-cover bg-no-repeat"
           />
         </>
       )}
